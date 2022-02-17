@@ -1,6 +1,14 @@
 # shawasty.github.io
 MY_PROJECT_PORTFOLIO
 
+INSTRUCTIONS ON HOW TO PLAY
+
+Both players toss their cards, who ever draws the higher card takes all card 
+If both draw the same card, each player takes back the card
+It is repeated till one runs out of cards
+
+
+
 
 TECHNOLOGIES USED
 
