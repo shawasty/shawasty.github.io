@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- since there are two js files, use source as the general js file. -->
+    <script src="script.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>CARD GAME</title>
+  </head>
+  <body>
+    <header>
+      <h3>&hearts; &spades; Shawasty's Card War Game &diams; &clubs;</h3>
+      <ul>
+        <li><a href="">INSTRUCTIONS</a></li>
+      </ul>
+      <section class="checks">
+      <h2 class="timer">TIMER : <span id="timeNum"></span></h2>
+      </section>
+    </header>
+
+    <section class="tiles">
+      <div class="computer-deck deck"></div>
+      <div class="computer-card-slot card-slot"></div>
+      <div class="text"></div>
+      <div class="player-deck deck"></div>
+      <div class="player-card-slot card-slot"></div>
+    </section>
+    <br /><br /><br /><br /><br />
+
+    <section class="avatar-box">
+      <img src="data:image/png;base64,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" alt="" id="player-avatar">
+    </section>
+
+    <footer class="row">
+      <button id="music">MUSIC</button>
+      <button id="reset">RESET</button>
+      <button id="next">NEXT ROUND</button>
+    </footer>
+    <br>
+    <p id="copyright"">Shawasty ™ 2022</p>
+   
+  </body>
+</html>
