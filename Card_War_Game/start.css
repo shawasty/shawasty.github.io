@@ -1,0 +1,18 @@
+body{
+    background-image:url(/Card_War_Game/images/card4.jpeg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    background-color: white;
+    width: 170px;
+    margin:0 20px;
+    display:inline-block;
+    line-height: 60px;
+    border-radius: 5rem;
+    border: 2px solid rgb(119, 6, 6);
+    font-size: 1.2rem;
+}  
