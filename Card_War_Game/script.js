@@ -48,6 +48,7 @@ let winingEffect = new Audio("sounds/wining.wav");
 let losinEffect = new Audio("sounds/damaged1.wav");
 let drawinSound = new Audio("sounds/healed2")
 
+
 let inSession = false; //set default value to false
 let stopGame = false;
 

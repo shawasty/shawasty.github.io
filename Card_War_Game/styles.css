@@ -10,7 +10,8 @@ body{
     height: 100%;
     text-align: center;
     background-size: cover;
-    background-image: url(/Card_War_Game/images/header6.jpeg);
+    background-image:url(/Card_War_Game/images/land1.jpeg);
+   
 
 }
 
@@ -22,7 +23,7 @@ header {
     font-size: large;
     align-items: center;
     justify-content: space-around;
-    background-image:url(/Card_War_Game/images/head1.jpeg);
+    /* background-image:url(/Card_War_Game/images/head1.jpeg); */
 }
 header ul{
     list-style: none;
@@ -60,11 +61,11 @@ header ul li{
 }
 
 .computer-deck {
-  background-image:url(/Card_War_Game/images/card4.jpeg);
+  background-image:url(/Card_War_Game/images/playcard2.jpeg);
 }
 
 .player-deck {
-  background-image:url(/Card_War_Game/images/card3.jpeg);
+  background-image:url(/Card_War_Game/images/playcard4.jpg);
 }
 
 .text {
@@ -86,7 +87,8 @@ header ul li{
   justify-content: center;
   align-items: center;
   font-size: 4rem;
-  background-image:url(/Card_War_Game/images/card2.jpeg)
+  /* background-image:url(/Card_War_Game/images/card3.jpeg) */
+  background-color: white;
 }
 
 .card.red {
